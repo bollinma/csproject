@@ -1,0 +1,56 @@
+#header {
+  text-align: center;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+div {
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+}
+
+span {
+  padding:45px;
+  text-align: center;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#leadActors { /* adjusting leadActors div to center it better */
+  position: relative;
+}
+
+#movieTitle {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.carousel {
+  position:relative;
+  width:400px;
+  height: 250px;
+}
+
+.slideImages {
+  position: static;
+  width: 100%;
+}
+
+img {
+  width:400px;
+  height: auto;
+}
+
+/*
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+ /* from https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-*/

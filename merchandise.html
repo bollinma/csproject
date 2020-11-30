@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="merchandise.css">
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+</head>
+<body>
+  <h1 id="directorsHeader">Merchandise (Forthcoming)</h1>
+  <ul>
+    <li>War and Peace Movie Poster T-Shirt</li>
+    <li>"Nothing is so necessary for a young man as the society of intelligent women" T-Shirt</li>
+    <li>"L'Empereur Napoleon" 666 hoodie</li>
+    <li>"War is my profession" Napoleon coffee mug</li>
+  </ul>
+ <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post" onsubmit="postFunction()">
+   <label for="merchideas">Tell us what you'd like to get!!</label><br/>
+   <input type="text" name="merchideas" id="merchideas"/><br/>
+   <input type="submit"/>
+  </form><br/>
+  <p id="message"></p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="directors_html.html">Directors</a>
+    <a href="cast_html.html">Cast</a>
+  </nav>
+  <script>
+  function postFunction() {
+    var paragraph = document.getElementById("message");
+    paragraph.innerHTML = "Your suggestion has been received!";
+  }
+  </script>
+</body>
+</html>

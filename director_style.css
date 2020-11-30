@@ -1,0 +1,46 @@
+#directorsHeader {
+  text-align: center;
+}
+
+body {
+  background-color: lightgray;
+}
+
+div {
+  margin: 0 auto;
+}
+
+span {
+  padding:45px;
+}
+
+#leadActors { /* adjusting leadActors div to center it better */
+  position: absolute;
+  left: 185px;
+}
+
+img {
+  width:300px;
+  height:auto;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#tolstoyStory {
+  border-style: solid;
+  border-width: thin;
+  text-align:center;
+  height: 300px;
+  width: 300px;
+  overflow: scroll;
+}
+
+
+/*.centered {
+  text-align: center;
+  position: relative;
+  to;
+ /* from https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly*/

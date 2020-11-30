@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="project_style.css">
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+</head>
+<body>
+  <h1 id="header">Based on the greatest novel in western culture...</h1>
+  <div class="carousel">
+    <div class="slideImages"><img src="russia_map.jpg" id="russiaMap"></img></div>
+    <div class="slideImages"><img src="slideshow_image_2.JPG"/></div>
+    <div class="slideImages"><img src = "slideshow_image_3.JPG/"></div>
+  </div><br><br>
+  <div id="leadActors"><span>Ian McShane</span> <span>Gerard Butler</span> <span>Eddie Redmayne</span></div><br><br>
+  <div id="directors">directed by DAVID BENIOFF and D.B. WEISS</div><br><br>
+  <div id="movieTitle">WAR AND PEACE</div><br><br><br><br>
+  <nav id="homeLinks">
+    <a href = "/cast/">Cast</a>
+    <a href="/directors/">Directors</a>
+    <a href="/merchandise/">Merchandise</a>
+  </nav>
+  <script>
+    var slideIndex = 1;
+    function slideChange() {
+      var slides = document.getElementsByClassName("slideImages");
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex].style.display = "block";
+      slideIndex++;
+      if (slideIndex >= slides.length) {
+        slideIndex = slideIndex - slides.length;
+      }
+    }
+    slideChange();
+    window.setInterval(slideChange, 4000);
+
+    
+  </script>
+</body>
+</html>
